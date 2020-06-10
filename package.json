@@ -1,0 +1,42 @@
+{
+  "name": "vue-ioc-di",
+  "version": "1.0.1",
+  "description": "Dependency injection for Vue.",
+  "author": "YISH",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/mokeyish/vue-ioc-di"
+  },
+  "scripts": {
+    "test": "jest",
+    "example": "parcel ./example/index.html",
+    "build": "rm -rf dist && tsc --build ./tsconfig.prod.json",
+    "lint": "tslint --project ./tsconfig.json --fix"
+  },
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "ioc-di-ts": "^1.0.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@vue/component-compiler-utils": "^3.1.2",
+    "jest": "^25.2.1",
+    "parcel": "^2.0.0-alpha.3.2",
+    "parcel-bundler": "^1.12.4",
+    "rxjs": "^6.5.5",
+    "ts-jest": "^25.5.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3",
+    "vue-ioc-di": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
