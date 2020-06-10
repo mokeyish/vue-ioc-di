@@ -1,6 +1,6 @@
 {
   "name": "vue-ioc-di",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dependency injection for Vue.",
   "author": "YISH",
   "license": "MIT",
